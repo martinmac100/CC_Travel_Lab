@@ -1,0 +1,49 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+
+}
+#nav-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list {
+    margin-right: 10px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.nav-list:hover {
+    background-color: yellow;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+   
+  }
+
+#user-comment {
+    display: flex;
+    flex-flow: row wrap;
+
+   
+  }
+
+#pop-destinations {
+    display: flex:
+    flex-flow: row wrap;
+}
+
+body > main > section > img {
+    margin: 20px;
+}
